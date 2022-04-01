@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+}
+
+header .header-hblack{
+    position: absolute;
+    top: 0;
+    height: 799px;
+    width: 450px;
+    background: black;
+}
+
+header img{
+    height: 176px;
+    width: 285px;
+    margin-left: 165px;
+    margin-top: 189px;
+}
+
+header .header-himg{
+    position: absolute;
+    height: 800px;
+    width: 540px;
+    background: url(../img/Rectangle.jpg);
+    margin-left: 450px;
+}
+
+header .header-himg img{
+    margin-left: 0px;
+    margin-top: 190px;
+    height: 174px;
+    width: 164px;
+}
+
+header p{
+    color: #444444;
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    position: absolute;
+    top: 100px;
+    left: 825px;
+}
+
+header .header-himg a div button{
+    width: 204px;
+    height: 72px;
+    border: none;
+    background-color: #151515;
+    color: white;
+    font-family: 'Big Shoulders Display';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63px;
+    margin: 50px 0 0 475px;
+    transition: 0.3s;
+}
+
+header .header-himg a div button:hover{
+    background-color: #D5966C;
+    cursor: pointer;
+}
+
+section .section-content .section-about{
+    width: 350px;
+    height: 280px;
+    margin-top: 1040px;
+    margin-left: 165px;
+}
+
+section .section-content .section-about h1{
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #151515;
+}
+
+section .section-content .section-about p{
+font-family: 'Outfit';
+font-weight: 300;
+font-size: 22px;
+line-height: 32px;
+color: #444444;
+margin-top: 32px;
+}
+
+section .section-content .section-photos .first{
+    margin: -340px 0 0 640px;
+}
+
+section .section-content .section-photos .second{
+    margin-top: 30px;
+    margin-left: 165px;
+}
+
+section .section-content .section-photos .thirt{
+    margin: 0 0 407px 30px;
+}
+
+section .section-content .section-end{
+    width: 445px;
+    height: 377px;
+    background: #151515;
+    padding: 65px 0 0 48px;
+    margin: -384px 0 0 835px;
+}
+
+section .section-content .section-end h1{
+    color: white;
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+section .section-content .section-end p{
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+footer{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 224px;
+    background: #151515;
+    margin-top: 180px;
+}
+
+footer .footer-content img{
+    margin: 80px 0 0 165px;
+}
+
+footer .footer-content p{
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: -60px 545px 0 465px;
+}
+
+footer .footer-content .Facebook{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -182.25px;
+    left: 1135px;
+}
+
+footer .footer-content .Instagram{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -182.25px;
+    left: 995px;
+}
+
+footer .footer-content .Twitter{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -182.25px;
+    left: 855px;
+}
+
+header .header-himg a div button img{
+    width: 56px;
+    height: 72px;
+    background: #D5966C;
+}
+
