@@ -132,13 +132,9 @@ footer .footer-content .footer-section p{
 }
 
 footer .footer-content .footer-icons{
-    position: absolute;
+    display: flex;
+    justify-content: space-between;
     width: 100px;
     height: 20px;
-    left: 1175px;
-    top: 1228px;
-}
-
-footer .footer-content .footer-icons img{
-    
+    margin-left: 280px;
 }
