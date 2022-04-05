@@ -177,14 +177,9 @@ footer .footer-content .footer-icons{
     margin-left: 280px;
 }
 
-
-
-
-
-
-
-
-
+footer .footer-content .footer-icons img{
+    cursor: pointer;
+}
 
 header .header-himg a div button img{
     width: 56px;

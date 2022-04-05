@@ -138,3 +138,12 @@ footer .footer-content .footer-icons{
     height: 20px;
     margin-left: 280px;
 }
+
+footer .footer-content .footer-icons img:hover{
+    cursor: pointer;
+    transform: skew(-34deg);
+}
+
+footer .footer-content .footer-icons img{
+    transition: 0.5s;
+}
